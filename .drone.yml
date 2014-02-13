@@ -3,7 +3,6 @@ env:
   - GOPATH=/var/cache/drone
 script:
   - go build main.go
-  - touch a.txt
   - ls -ltr
 publish:
   s3:
@@ -12,5 +11,5 @@ publish:
     bucket: yosssi
     access_key: AKIAIFUQLLONKNLRFYOA
     secret_key: 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
-    source: /var/cache/drone/src/github.com/yosssi/drone-test-publish/a.txt
+    source: /var/cache/drone/src/github.com/yosssi/drone-test-publish/main
     target: latest/
