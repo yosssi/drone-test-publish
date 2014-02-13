@@ -3,6 +3,7 @@ env:
   - GOPATH=/var/cache/drone
 script:
   - go build main.go
+  ls -ltr
 publish:
   s3:
     acl: public-read
