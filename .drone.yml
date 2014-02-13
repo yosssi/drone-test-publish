@@ -12,4 +12,4 @@ publish:
     access_key: AKIAIFUQLLONKNLRFYOA
     secret_key: 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
     source: /var/cache/drone/src/github.com/yosssi/drone-test-publish/main
-    target: latest/
+    target: test/
