@@ -10,7 +10,7 @@ publish:
     acl: public-read
     region: ap-northeast-1
     bucket: yosssi
-    access_key: AKIAISZJYS3HZLVC6VDA
-    secret_key: AhXBwmHcAkpcQURGqRxzaNeLNQnvCLB+TAmbEb9dTc+b
+    access_key: AKIAIFUQLLONKNLRFYOA
+    secret_key: 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
     source: /var/cache/drone/src/github.com/yosssi/drone-test-publish/a.txt
     target: latest/
